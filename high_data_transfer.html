@@ -1,0 +1,1429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from weddingbook.in/high_data_transfer.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Feb 2025 06:28:26 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>High Data Transfer - Wedding Book</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.html" />
+    <link rel="stylesheet" href="assets/hdt/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/hdt/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/hdt/css/flaticon.css" />
+    <link rel="stylesheet" href="assets/hdt/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/hdt/css/owl.theme.css" />
+    <link rel="stylesheet" href="assets/hdt/css/lightgallery.css" />
+    <link rel="stylesheet" href="assets/hdt/css/woocommerce.css" />
+
+    <link rel="stylesheet" href="assets/hdt/style.css" />
+    <link rel="stylesheet" href="assets/hdt/css/home4.css" />
+    <link rel="stylesheet" href="assets/hdt/css/royal-preload.css" />
+    <style type="text/css">
+    .overview {
+        background-color: transparent;
+        position: relative;
+        top: -30px;
+        margin-bottom: -30px;
+        z-index: 2;
+    }
+    .overview .overview__single {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap: 20px;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 18px 20px;
+        background-color: #17233c;
+        border-radius: 6px;
+        height: 100%;
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+    }
+
+    .fadeInUp {
+        -webkit-animation-name: fadeInUp;
+        animation-name: fadeInUp;
+    }
+    .items-gap {
+        row-gap: 30px;
+    }
+    .overview .overview__single .h6 {
+        font-weight: 500;
+        color: #fff;
+    }
+    .tour .tour__content {
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        height: 810px;
+        padding: 83px 30px 30px;
+    }
+    .top-12 {
+        background-color: #3639A4;
+        background-image: url(assets/hdt/images/background/home12-bg-1.png);
+        background-position: top left;
+        background-repeat: no-repeat;
+    }
+    .top11-position-1 {
+        position: absolute;
+        left: -25%;
+        top: 30px;
+    }
+    .top11-position-2 {
+        position: absolute;
+        left: -443px;
+        bottom: -114px;
+    }
+    .top11-position-3 {
+        position: absolute;
+        right: -415px;
+        top: 0;
+    }
+    .top11-position-4 {
+        position: absolute;
+        right: -205px;
+        bottom: 30px;
+    }
+    @media (min-width: 1200px){
+        .image-12 {
+            margin-top: -292px;
+        }
+    }
+
+    @media (min-width: 767px){
+        .image-12 {
+            margin-top: -150px;
+        }
+    }
+    .meeting-img-box {
+        margin-right: 35px;
+    }
+
+    .ot-image-box {
+        text-align: left;
+    }
+    .ot-image-box__img {
+        display: inline-block;
+        width: 100%;
+        margin: 0 0 35px;
+    }
+    .ot-image-box__img img {
+        width: 100%;
+        transition: all 0.3s linear;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        -ms-transition: all 0.3s linear;
+    }
+
+    .video-frame[data-v-7b8a2bb0] {
+        background-image: url(data:image/png;base64,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);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .tour .tour__content video {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border-radius: 0 0 20px 20px;
+    }
+    .service-14 {
+      font-family: "Montserrat", sans-serif;
+        color: #000;
+      font-weight: 300;
+    }
+
+    .service-14 h1, .service-14 h2, .service-14 h3, .service-14 h4, .service-14 h5, .service-14 h6 {
+      color: #000;
+    }
+
+    .service-14 h3 {
+          line-height: 36px;
+        font-size: 30px;
+    }
+
+    .service-14 h6 {
+          line-height: 22px;
+        font-size: 18px;
+    }
+
+    .service-14 .badge {
+        line-height: 14px;
+    }
+
+    .service-14 .badge-info {
+        background: #188ef4;
+    }
+
+    .service-14 .font-weight-medium {
+        font-weight: 500;
+    }
+
+    .service-14 a {
+        text-decoration: none;
+    }
+
+    .service-14 .linking {
+        color: #3e4555;
+    }
+
+    .service-14 .linking:hover {
+        color: #316ce8;
+    }
+
+    .service-14 .btn-info-gradiant {
+            background: #188ef4;
+        background: -webkit-linear-gradient(legacy-direction(to right), #188ef4 0%, #316ce8 100%);
+        background: -webkit-gradient(linear, left top, right top, from(#188ef4), to(#316ce8));
+        background: -webkit-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+        background: -o-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+        background: linear-gradient(to right, #188ef4 0%, #316ce8 100%);
+    }
+
+    .service-14 .btn-info-gradiant:hover {
+            background: #316ce8;
+        background: -webkit-linear-gradient(legacy-direction(to right), #316ce8 0%, #188ef4 100%);
+        background: -webkit-gradient(linear, left top, right top, from(#316ce8), to(#188ef4));
+        background: -webkit-linear-gradient(left, #316ce8 0%, #188ef4 100%);
+        background: -o-linear-gradient(left, #316ce8 0%, #188ef4 100%);
+        background: linear-gradient(to right, #316ce8 0%, #188ef4 100%);
+    }
+
+    .service-14 .btn-md {
+        padding: 15px 45px;
+        font-size: 16px;
+    }
+    #site-logo img {
+        width: 120px;
+    }
+    @import url(http://fonts.googleapis.com/css?family=Montserrat:300,400,500);
+    .ot-pricing-table .octf-btn.--price-link-trial {
+        margin-top: 37px;
+        padding: 18px 20px;
+    }
+
+    </style>
+    <style type="text/css">
+    .max-w-1200 {
+    max-width: 1200px;
+}
+
+@media screen and (min-width: 768px) {
+    .spacer-inner-bottom-sm-100 {
+        padding-bottom: 100px !important;
+    }
+}
+.spacer-inner-bottom-60 {
+    padding-bottom: 60px !important;
+}
+@media screen and (min-width: 768px) {
+    .spacer-inner-top-sm-80 {
+        padding-top: 80px !important;
+    }
+}
+.spacer-inner-top-80 {
+    padding-top: 80px !important;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.tc {
+    text-align: center;
+}
+
+.ps-primary-heading {
+    color: #1d1d1d;
+    font-size: 24px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0;
+    line-height: 1.25;
+    margin: 0;
+}
+.gutter-10>[class*=col-] {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+@media screen and (min-width: 768px) {
+    .tl-sm {
+        text-align: left;
+    }
+}
+.tc {
+    text-align: center;
+}
+@media screen and (min-width: 768px) {
+    .no-spacer-top-sm {
+        margin-top: 0 !important;
+    }
+}
+.spacer-top-25 {
+    margin-top: 25px !important;
+}
+@media (min-width: 768px) {
+    .col-sm-3 {
+        width: 25%;
+    }
+}
+@media (min-width: 768px) {
+    .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+        float: left;
+    }
+}
+.gutter-10 {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+@media (min-width: 768px) {
+    .flex-row-sm {
+        -ms-flex-direction: row !important;
+        flex-direction: row !important;
+    }
+}
+.flex-column {
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.flex {
+    display: -ms-flexbox;
+    display: flex;
+}
+@media screen and (min-width: 768px) {
+    .spacer-top-sm-60 {
+        margin-top: 60px !important;
+    }
+}
+.spacer-top-40 {
+    margin-top: 40px !important;
+}
+.justify-between {
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.flex-column {
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.flex {
+    display: -ms-flexbox;
+    display: flex;
+}
+.h-100 {
+    height: 100%;
+}
+@media (min-width: 992px) {
+    .ps-product-shadow {
+        min-height: auto;
+        padding: 60px 45px;
+    }
+}
+@media (min-width: 768px) {
+    .ps-product-shadow {
+        box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .1);
+        min-height: 300px;
+        padding: 20px;
+        transition: box-shadow .2s ease-out;
+    }
+}
+.ps-product-shadow {
+    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .1);
+    padding: 50px 15px;
+}
+.spacer-right-15 {
+    margin-right: 15px !important;
+}
+
+.ps-product-icon--lg {
+    height: 30px;
+    width: 30px;
+}
+.f-22 {
+    font-size: 22px;
+}
+
+@media (min-width: 768px) {
+    .ps-product-shadow:hover {
+        box-shadow: 10px 15px 30px 0 rgba(0, 0, 0, .15);
+    }
+}
+.flex.justify-center {
+    flex-direction: inherit;
+}
+</style>
+</head>
+
+<body class="">
+    <div id="page" class="site">
+        <header id="site-header" class="site-header site-header-4 header-static">
+            <!-- Main Header start -->
+            <div class="header-desktop">
+                <div class="octf-main-header is-fixed">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-logo align-self-center">
+                                <div id="site-logo" class="site-logo">
+                                    <a href="index-2.html">
+                                        <img src="assets/home/wp-content/uploads/2022/07/weddingbook-logo.png" alt="Wedding Book" class="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-menu">
+                                <nav id="site-navigation" class="main-navigation">
+                                    <ul class="menu">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="client_gallery.html">Client Gallery</a></li>
+                                        <li><a href="crm.html">CRM</a></li>
+                                        <li><a href="high_data_transfer.html">High Data Transfer</a></li>
+                                        <li><a href="mobile-app.html">Mobile App</a></li>
+                                        
+                                        <li><a href="ar.html">AR Photo to Video</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="col-cta align-self-center">
+                                <div class="octf-btn-cta justify-content-end">
+
+                                    <div class="octf-header-btn octf-cta-header">
+                                        <div class="btn-cta-group btn-cta-header">
+                                            <a class="octf-btn octf-btn-second" href="https://auth.weddingbook.in/Nw/ST">Try For Free</a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="header_mobile">
+                <div class="container-fluid">
+                    <div class="octf-mainbar-row octf-row">
+                        <div class="octf-col">
+                            <div class="mlogo_wrapper clearfix">
+                                <div class="mobile_logo">
+                                    <a href="index-2.html">
+                                        <img src="assets/hdt/images/logo.svg" alt="Progrisaas">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="octf-col justify-content-end">
+                            <div class="octf-search octf-cta-header align-self-center">
+                                <div class="toggle_search octf-cta-icons">
+                                    <i class="ot-flaticon-magnifiying-glass"></i>
+                                </div>
+                                <!-- Form Search on Header -->
+                                <div class="h-search-form-field collapse">
+                                    <div class="search-overlay"></div>
+                                    <div class="h-search-form-inner">
+                                        <i class="ot-flaticon-close"></i>
+                                        <div class="container">
+                                            <form role="search" method="get" id="hsearch-form" class="search-form">
+                                                <span class="pre-text">What are you looking for?</span>
+                                                <input type="search" class="search-field" placeholder="Enter Keyword…" value="" name="s">
+                                                <button type="submit" class="search-submit"><i class="ot-flaticon-magnifiying-glass"></i></button>
+                                            </form>
+                                        </div>
+                                    </div>                                  
+                                </div>
+                            </div>
+                            <div id="mmenu-toggle" class="mmenu-toggle align-self-center">
+                                <button><i class="ot-flaticon-menu-of-three-lines"></i></button>
+                            </div>
+                            <div class="site-overlay mmenu-overlay"></div>
+                        </div>
+                        <div id="mmenu-wrapper" class="mmenu-wrapper on-right">
+                            <div class="mmenu-inner">
+                                <a class="mmenu-close" href="#"><i class="ot-flaticon-right-arrow"></i></a>
+                                <div class="mobile-nav">
+                                    <ul id="menu-main-menu" class="mobile_mainmenu none-style">
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="top-h4">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="space-140 d-none d-lg-block"></div>
+                <div class="space-80"></div>
+                <div class="space-5"></div>
+                <div class="space-3"></div>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-8">
+                        <h1>Share Large Files</h1>
+                        <div class="space-3"></div>
+                        <ul class="none-style list-s1">
+                            <li>
+                                <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 11"><path d="M13.6554 2.15622C14.1149 1.66307 14.1149 0.863266 13.6554 0.369866C13.1962 -0.123289 12.4514 -0.123289 11.9919 0.369866L4.93262 7.95072L2.00788 4.80998C1.54864 4.31658 0.80384 4.31658 0.344601 4.80998C-0.114867 5.30313 -0.114867 6.10294 0.344601 6.59609L4.10098 10.6301C4.56045 11.1233 5.30502 11.1233 5.76449 10.6301L13.6554 2.15622Z"></path></svg></span>
+                                <span>Effortless File Sharing with Personalized URLs</span>
+                            </li>
+                            <div class="space-2"></div>
+                            <li>
+                                <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 11"><path d="M13.6554 2.15622C14.1149 1.66307 14.1149 0.863266 13.6554 0.369866C13.1962 -0.123289 12.4514 -0.123289 11.9919 0.369866L4.93262 7.95072L2.00788 4.80998C1.54864 4.31658 0.80384 4.31658 0.344601 4.80998C-0.114867 5.30313 -0.114867 6.10294 0.344601 6.59609L4.10098 10.6301C4.56045 11.1233 5.30502 11.1233 5.76449 10.6301L13.6554 2.15622Z"></path></svg></span>
+                                <span>File Transfer UP TO 20 GB AND 1 TB STORAGE</span>
+                            </li>
+                            <div class="space-2"></div>
+                            <li>
+                                <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 11"><path d="M13.6554 2.15622C14.1149 1.66307 14.1149 0.863266 13.6554 0.369866C13.1962 -0.123289 12.4514 -0.123289 11.9919 0.369866L4.93262 7.95072L2.00788 4.80998C1.54864 4.31658 0.80384 4.31658 0.344601 4.80998C-0.114867 5.30313 -0.114867 6.10294 0.344601 6.59609L4.10098 10.6301C4.56045 11.1233 5.30502 11.1233 5.76449 10.6301L13.6554 2.15622Z"></path></svg></span>
+                                <span>Start Sharing your Big Files</span>
+                            </li>
+                        </ul>
+                        <div class="space-20"></div>
+                        <div class="space-5"></div>
+                        <div class="space-3"></div>
+                        <a href="https://auth.weddingbook.in/" class="octf-btn octf-btn-main btn-large">Try It Now</a>
+                    </div>
+                </div>
+                <div class="space-150 d-none d-lg-block"></div>
+                <div class="space-80"></div>
+                <div class="space-5"></div>
+                <div class="space-3"></div>
+                <div class="row">
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-6 text-center">
+                        <div class="ot-icon-box icon-box-h4 p-0">
+                            <div class="ot-icon-box__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="m197.332031 170.667969h-160c-20.585937 0-37.332031-16.746094-37.332031-37.335938v-96c0-20.585937 16.746094-37.332031 37.332031-37.332031h160c20.589844 0 37.335938 16.746094 37.335938 37.332031v96c0 20.589844-16.746094 37.335938-37.335938 37.335938zm-160-138.667969c-2.941406 0-5.332031 2.390625-5.332031 5.332031v96c0 2.945313 2.390625 5.335938 5.332031 5.335938h160c2.945313 0 5.335938-2.390625 5.335938-5.335938v-96c0-2.941406-2.390625-5.332031-5.335938-5.332031zm0 0"></path><path d="m197.332031 512h-160c-20.585937 0-37.332031-16.746094-37.332031-37.332031v-224c0-20.589844 16.746094-37.335938 37.332031-37.335938h160c20.589844 0 37.335938 16.746094 37.335938 37.335938v224c0 20.585937-16.746094 37.332031-37.335938 37.332031zm-160-266.667969c-2.941406 0-5.332031 2.390625-5.332031 5.335938v224c0 2.941406 2.390625 5.332031 5.332031 5.332031h160c2.945313 0 5.335938-2.390625 5.335938-5.332031v-224c0-2.945313-2.390625-5.335938-5.335938-5.335938zm0 0"></path><path d="m474.667969 512h-160c-20.589844 0-37.335938-16.746094-37.335938-37.332031v-96c0-20.589844 16.746094-37.335938 37.335938-37.335938h160c20.585937 0 37.332031 16.746094 37.332031 37.335938v96c0 20.585937-16.746094 37.332031-37.332031 37.332031zm-160-138.667969c-2.945313 0-5.335938 2.390625-5.335938 5.335938v96c0 2.941406 2.390625 5.332031 5.335938 5.332031h160c2.941406 0 5.332031-2.390625 5.332031-5.332031v-96c0-2.945313-2.390625-5.335938-5.332031-5.335938zm0 0"></path><path d="m474.667969 298.667969h-160c-20.589844 0-37.335938-16.746094-37.335938-37.335938v-224c0-20.585937 16.746094-37.332031 37.335938-37.332031h160c20.585937 0 37.332031 16.746094 37.332031 37.332031v224c0 20.589844-16.746094 37.335938-37.332031 37.335938zm-160-266.667969c-2.945313 0-5.335938 2.390625-5.335938 5.332031v224c0 2.945313 2.390625 5.335938 5.335938 5.335938h160c2.941406 0 5.332031-2.390625 5.332031-5.335938v-224c0-2.941406-2.390625-5.332031-5.332031-5.332031zm0 0"></path></svg>
+                            </div>
+                            <div class="ot-icon-box__content">
+                                <h6 class="icon-box-title">High Files</h6>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-6 text-center">
+                        <div class="ot-icon-box icon-box-h4 p-0">
+                            <div class="ot-icon-box__icon">
+                                <svg viewBox="0 0 512 512">
+                                    <g>
+                                        <g>
+                                            <path d="M461.6,298.912l-70.24-15.168v-20.608c3.68-5.344,7.104-12.192,10.656-19.328c2.656-5.312,6.656-13.28,8.16-15.04    c10.624-10.272,23.36-24.48,27.584-43.52c3.712-18.144-1.12-27.488-3.84-31.04c0-14.816,0-36.864-4.544-53.888    c-0.608-20.896-4.736-33.216-14.08-42.944C408,48.928,397.44,47.104,388.96,45.632c-2.624-0.448-6.56-1.12-7.968-1.824    C366.72,36.128,352.576,32.384,335.296,32c-26.88,1.184-53.984,13.152-72.48,32c-6.176,6.304-6.112,16.448,0.224,22.624    c6.272,6.176,16.384,6.112,22.624-0.224c12.768-13.024,32.32-21.6,49.984-22.4c11.104,0.256,20.416,2.72,29.984,7.872    c5.76,3.232,12.224,4.352,17.92,5.344c2.688,0.48,7.232,1.248,8.096,1.696c2.304,2.432,5.504,5.76,5.792,24.096    c0.032,1.44,0.256,2.912,0.672,4.288c3.808,12.8,3.808,34.176,3.808,46.944c0,5.984,2.208,10.272,3.68,13.152    c1.344,2.656,2.272,4.384,0.864,11.232c-2.304,10.368-10.656,19.552-18.688,27.328c-5.152,5.12-9.408,13.664-14.368,23.552    c-2.72,5.472-7.296,14.592-9.344,16.768c-3.008,3.008-4.704,7.072-4.704,11.328v39.04c0,7.52,5.248,14.048,12.64,15.648    l82.848,17.92C469.664,333.408,480,346.336,480,361.6V384h-83.2c-8.832,0-16,7.168-16,16c0,8.832,7.168,16,16,16H496    c8.832,0,16-7.168,16-16v-38.4C512,331.136,491.296,305.376,461.6,298.912z"></path>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M301.568,363.04l-70.272-15.264V327.04c3.68-5.312,7.104-12.064,10.656-19.136c2.656-5.248,6.656-13.184,8.32-15.072    c11.424-11.168,23.584-25.056,27.36-43.392c3.776-18.272-0.992-27.648-3.744-31.328c0-12.864,0-36.32-4.48-53.536    c-0.512-20.768-4.576-33.12-14.336-43.744c-7.328-7.936-17.664-9.664-25.952-11.072c-2.688-0.448-6.72-1.12-7.936-1.728    C207.2,100.256,192.992,96.448,175.392,96c-35.52,1.344-79.168,23.968-93.792,64.544c-4.16,11.52-4.16,28.736-3.776,48.448    l-0.032,7.808c-2.56,5.024-7.328,14.4-3.552,32.64c3.776,18.368,15.936,32.256,27.264,43.328c1.76,1.984,5.824,9.952,8.544,15.232    c3.552,7.008,7.008,13.728,10.656,19.04v20.768l-70.272,15.264C21.216,369.408,0,395.712,0,425.6V464c0,8.832,7.168,16,16,16h320    c8.832,0,16-7.168,16-16v-38.4C352,395.712,330.784,369.408,301.568,363.04z M320,448H32v-22.4    c0-14.944,10.624-28.096,25.216-31.264l82.88-17.984c7.36-1.6,12.608-8.096,12.608-15.648V321.44c0-4.096-1.92-8.384-4.736-11.36    c-2.048-2.176-6.656-11.2-9.408-16.608c-5.088-9.888-9.44-18.432-14.624-23.488c-8.352-8.16-16.352-17.088-18.368-27.008    c-1.504-7.264-0.608-9.024,0.736-11.648c1.44-2.848,3.648-7.2,3.648-13.216l-0.128-9.76c-0.224-11.232-0.608-30.08,1.856-36.96    c9.728-26.976,40.704-42.496,63.904-43.392c11.52,0.288,20.512,2.688,30.08,8c5.824,3.232,12.352,4.32,18.112,5.312    c2.944,0.512,7.136,1.216,7.776,1.216c2.528,2.752,5.664,6.176,5.888,24.544c0,1.44,0.224,2.88,0.64,4.288    c3.808,12.96,3.808,35.776,3.808,46.72c0,6.016,2.208,10.336,3.648,13.216c1.344,2.656,2.24,4.384,0.736,11.68    c-2.016,9.92-10.016,18.816-18.368,27.008c-5.216,5.056-9.536,13.6-14.528,23.488c-2.72,5.408-7.296,14.432-9.312,16.576    c-3.072,3.008-4.768,7.104-4.768,11.392v39.264c0,7.52,5.248,14.048,12.608,15.648l82.88,17.984    C309.376,397.504,320,410.656,320,425.6V448z"></path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="ot-icon-box__content">
+                                <h6 class="icon-box-title">Customization</h6>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-6 text-center">
+                        <div class="ot-icon-box icon-box-h4 p-0">
+                            <div class="ot-icon-box__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="m133.332031 320h-53.332031c-8.832031 0-16-7.167969-16-16v-53.332031c0-8.832031 7.167969-16 16-16h53.332031c8.832031 0 16 7.167969 16 16v53.332031c0 8.832031-7.167969 16-16 16zm-37.332031-32h21.332031v-21.332031h-21.332031zm0 0"></path><path d="m133.332031 448h-53.332031c-8.832031 0-16-7.167969-16-16v-53.332031c0-8.832031 7.167969-16 16-16h53.332031c8.832031 0 16 7.167969 16 16v53.332031c0 8.832031-7.167969 16-16 16zm-37.332031-32h21.332031v-21.332031h-21.332031zm0 0"></path><path d="m282.667969 320h-53.335938c-8.832031 0-16-7.167969-16-16v-53.332031c0-8.832031 7.167969-16 16-16h53.335938c8.832031 0 16 7.167969 16 16v53.332031c0 8.832031-7.167969 16-16 16zm-37.335938-32h21.335938v-21.332031h-21.335938zm0 0"></path><path d="m282.667969 448h-53.335938c-8.832031 0-16-7.167969-16-16v-53.332031c0-8.832031 7.167969-16 16-16h53.335938c8.832031 0 16 7.167969 16 16v53.332031c0 8.832031-7.167969 16-16 16zm-37.335938-32h21.335938v-21.332031h-21.335938zm0 0"></path><path d="m432 320h-53.332031c-8.832031 0-16-7.167969-16-16v-53.332031c0-8.832031 7.167969-16 16-16h53.332031c8.832031 0 16 7.167969 16 16v53.332031c0 8.832031-7.167969 16-16 16zm-37.332031-32h21.332031v-21.332031h-21.332031zm0 0"></path><path d="m453.332031 512h-394.664062c-32.363281 0-58.667969-26.304688-58.667969-58.667969v-352c0-32.363281 26.304688-58.664062 58.667969-58.664062h394.664062c32.363281 0 58.667969 26.300781 58.667969 58.664062v352c0 32.363281-26.304688 58.667969-58.667969 58.667969zm-394.664062-437.332031c-14.699219 0-26.667969 11.964843-26.667969 26.664062v352c0 14.699219 11.96875 26.667969 26.667969 26.667969h394.664062c14.699219 0 26.667969-11.96875 26.667969-26.667969v-352c0-14.699219-11.96875-26.664062-26.667969-26.664062zm0 0"></path><path d="m496 202.667969h-480c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h480c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"></path><path d="m122.667969 128c-8.832031 0-16-7.167969-16-16v-96c0-8.832031 7.167969-16 16-16s16 7.167969 16 16v96c0 8.832031-7.167969 16-16 16zm0 0"></path><path d="m389.332031 128c-8.832031 0-16-7.167969-16-16v-96c0-8.832031 7.167969-16 16-16s16 7.167969 16 16v96c0 8.832031-7.167969 16-16 16zm0 0"></path></svg>
+                            </div>
+                            <div class="ot-icon-box__content">
+                                <h6 class="icon-box-title">Security</h6>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-6 text-center">
+                        <div class="ot-icon-box icon-box-h4 p-0">
+                            <div class="ot-icon-box__icon">
+                                <svg viewBox="0 0 512 512">
+                                    <g>
+                                        <g>
+                                            <path d="M477.44,304c0-0.704-0.32-1.344-0.416-2.016c-0.128-1.088-0.288-2.112-0.64-3.136c-0.352-0.992-0.832-1.856-1.344-2.752    c-0.48-0.864-0.992-1.696-1.632-2.464c-0.672-0.8-1.472-1.408-2.272-2.048c-0.8-0.608-1.568-1.216-2.464-1.664    c-0.96-0.48-1.952-0.768-3.008-1.056c-0.672-0.192-1.248-0.576-1.952-0.672c-0.384-0.064-0.768,0.096-1.152,0.064    c-0.416-0.064-0.736-0.256-1.12-0.256H224V50.56c0-0.384-0.192-0.736-0.224-1.12c-0.032-0.384,0.128-0.736,0.064-1.12    c-0.096-0.704-0.48-1.248-0.672-1.92c-0.288-1.056-0.576-2.08-1.088-3.04c-0.448-0.896-1.024-1.664-1.632-2.432    c-0.672-0.864-1.312-1.632-2.112-2.336c-0.736-0.64-1.504-1.088-2.336-1.568c-0.96-0.576-1.888-1.088-2.944-1.44    c-0.928-0.32-1.92-0.448-2.912-0.576c-0.736-0.128-1.376-0.448-2.144-0.448c-0.384,0-0.736,0.192-1.12,0.224    c-0.384,0.032-0.736-0.128-1.12-0.064C88.448,51.296,0,153.28,0,272c0,132.352,107.648,240,240,240    c118.72,0,220.704-88.448,237.28-205.76c0.064-0.384-0.096-0.736-0.064-1.12C477.248,304.736,477.44,304.384,477.44,304z M240,480    c-114.688,0-208-93.312-208-208c0-96.48,67.776-179.424,160-201.28V304c0,8.832,7.168,16,16,16h233.28    C419.456,412.224,336.512,480,240,480z"></path>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M272,0c-4.256,0-8.32,1.696-11.328,4.672S256,11.776,256,16l0.064,224.064c0,4.256,1.696,8.32,4.672,11.328    c2.976,3.008,7.104,4.672,11.328,4.672L496,256c8.832,0,16-7.168,16-16C512,107.648,404.352,0,272,0z M288.064,224.064L288,32.608    C389.984,40.416,471.584,122.048,479.392,224L288.064,224.064z"></path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="ot-icon-box__content">
+                                <h6 class="icon-box-title">Analytics</h6>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-6 text-center">
+                        <div class="ot-icon-box icon-box-h4 p-0">
+                            <div class="ot-icon-box__icon">
+                                <svg viewBox="0 0 512.064 512.064">
+                                    <g>
+                                        <g>
+                                            <path d="M224.01,0c-123.488,0-224,81.824-224,182.4c0,50.944,25.6,98.72,70.816,133.088    c-14.368,22.336-34.272,46.944-58.656,52.992c-7.712,1.92-12.864,9.216-12.064,17.12c0.768,7.936,7.296,14.048,15.232,14.4    c0.384,0,1.792,0.064,4.064,0.064c16.608,0,80.448-2.656,152.864-40.224c16.512,3.296,33.888,4.96,51.744,4.96    c123.488,0,224-81.824,224-182.4S347.498,0,224.01,0z M224.01,332.8c-17.6,0-34.592-1.824-50.56-5.44    c-3.744-0.864-7.712-0.32-11.136,1.536c-30.976,16.704-60.64,26.304-85.024,31.808C88.586,347.52,98.026,332.8,106.058,319.2    c4.352-7.36,2.112-16.832-5.024-21.504C57.162,268.96,32.01,226.944,32.01,182.4c0-82.944,86.112-150.4,192-150.4    s192,67.456,192,150.4C416.01,265.312,329.898,332.8,224.01,332.8z"></path>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M499.946,480.192c-18.304-4.64-36-19.392-52.672-43.936c41.344-32,64.736-76.064,64.736-122.976    c0-22.24-5.312-44.16-15.776-65.088c-3.968-7.936-13.664-11.04-21.472-7.136c-7.904,3.968-11.104,13.568-7.168,21.472    c8.224,16.448,12.416,33.504,12.416,50.752c0,40.576-23.04,78.976-63.2,105.344c-7.168,4.672-9.344,14.176-4.96,21.536    c7.904,13.344,16.064,24.832,24.576,34.496c-21.728-4.512-47.744-12.672-74.912-27.296c-3.36-1.824-7.328-2.336-11.04-1.536    c-64.32,14.144-133.6-2.592-176.992-40.864c-6.688-5.888-16.768-5.216-22.592,1.408c-5.856,6.624-5.216,16.736,1.408,22.592    c49.632,43.712,126.656,63.424,199.264,49.312c58.24,29.952,110.56,33.792,133.632,33.792c7.328,0,11.68-0.384,12.384-0.448    c7.744-0.736,13.856-6.944,14.432-14.688C512.586,489.152,507.498,482.112,499.946,480.192z"></path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="ot-icon-box__content">
+                                <h6 class="icon-box-title">Super Fast Uploads</h6>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-6 text-center">
+                        <div class="ot-icon-box icon-box-h4 p-0">
+                            <div class="ot-icon-box__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m20.25 10c-.414 0-.75-.336-.75-.75v-6.5c0-.689-.561-1.25-1.25-1.25h-12.5c-.689 0-1.25.561-1.25 1.25v4.5c0 .414-.336.75-.75.75s-.75-.336-.75-.75v-4.5c0-1.517 1.233-2.75 2.75-2.75h12.5c1.517 0 2.75 1.233 2.75 2.75v6.5c0 .414-.336.75-.75.75z"></path><path d="m21.25 24h-18.5c-1.517 0-2.75-1.233-2.75-2.75v-11.5c0-1.517 1.233-2.75 2.75-2.75h4.836c.468 0 .907.182 1.238.513l1.414 1.414c.046.046.11.073.176.073h10.836c1.517 0 2.75 1.233 2.75 2.75v9.5c0 1.517-1.233 2.75-2.75 2.75zm-18.5-15.5c-.689 0-1.25.561-1.25 1.25v11.5c0 .689.561 1.25 1.25 1.25h18.5c.689 0 1.25-.561 1.25-1.25v-9.5c0-.689-.561-1.25-1.25-1.25h-10.836c-.467 0-.907-.182-1.237-.513l-1.414-1.414c-.047-.047-.11-.073-.177-.073z"></path></svg>
+                            </div>
+                            <div class="ot-icon-box__content">
+                                <h6 class="icon-box-title">All Type of Files</h6>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="space-60"></div>
+            </div>
+        </section>
+
+        <section data-v-7b8a2bb0="" class="section tour" style="padding-top:100px;"><div data-v-7b8a2bb0="" class="container">
+            <div data-v-7b8a2bb0="" class="row"><div data-v-7b8a2bb0="" class="col-12"><div data-v-7b8a2bb0="" data-wow-duration="600ms" data-wow-delay="300ms" class="tour__content wow fadeInUp" style="visibility: visible; animation-duration: 600ms; animation-delay: 300ms;"><div data-v-7b8a2bb0="" class="video-frame"></div> <iframe width="100%" height="80%" src="https://www.youtube.com/embed/mLQ9GJLfcoY?si=x_NpsEAEFy6L0rSP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div></div>
+        </section>
+
+        <section class="meeting-15">
+            <div class="container">
+                <div class="space-5"></div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="mb-0">Send files move ideas</h2>
+                        <div class="space-10"></div>
+                        <div class="space-5"></div>
+                        <p>Weddingbook makes it easy to quickly share your files without limitations, getting your ideas where they need to go.</p>
+                        <div class="space-30"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 mb-5 mb-md-0">
+                        <div class="ot-image-box meeting-img-box">
+                            <figure class="ot-image-box__img"><a href="#"><img src="assets/hdt/images/screen1.png" alt=""></a></figure>
+                            <!--<div class="ot-image-box__content">
+                                <h5 class="image-box-title"><a href="#" class="title-link">Immerse yourself in a world where your creativity knows no bounds - </a></h5>
+                                <div class="image-box-des">Share photos, vidios, documents, and more with a click with your brand name custom URLs, Custom Background</div>
+                                <div class="image-box-btn">
+                                    <a href="#">View All Create Features <i class="ot-flaticon-right-arrow"></i></a>
+                                </div>
+                            </div> --> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-h4">
+            <div class="container">
+                <div class="space-80"></div>
+                <div class="space-60 d-none d-md-block"></div>
+                <div class="row">
+                    <div class="col-xl-5 col-lg-6 align-self-center">
+                        <div class="ssub-yes">
+                            <div class="ot-heading">
+                                <h2 class="ot-heading__title">High Data Transfer</h2>
+                            </div>
+                        </div>
+                        <div class="space-10"></div>
+                        <div class="space-3"></div>
+                        <p class="lead">Send large files quickly and securly, popular choice for sharing photos, videos and documents with team, colleagues or clients.</p>
+                        <p><ul>
+                            <li>Allowing users to send files to multiple recipients via email or link.</li>
+                            <li>Users can cutomize Transfer Backgrounds.</li>
+                            <li>Set Expiration dates and protect files with passwords for enhanced security.</li>
+                        </ul></p>
+                        <div class="space-20"></div>
+                    </div>
+                    <div class="col-xl-5 offset-xl-2 col-lg-6 mb-5 mb-lg-0 align-self-center order-lg-last order-first">
+                        <img src="assets/hdt/images/image2-home4.png" alt="">
+                    </div>
+                </div>
+                <div class="space-80"></div>
+
+            </div>
+        </section>
+
+        <section class="services-h4">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="space-80"></div>
+                <div class="space-60 d-none d-md-block"></div>
+                <div class="row">
+                    <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 text-center">
+                        <div class="ssub-yes">
+                            <div class="ot-heading">
+                                <span class="ot-heading__sub">What We provide</span>
+                                <h2 class="ot-heading__title">Effortlessly Share Large Files with High Data Transfer</h2>
+                            </div>
+                        </div>
+                        <div class="space-40"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <div class="ot-position-left">
+                            <div class="ot-icon-box service-h4">
+                                <div class="ot-icon-box__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+                                        <linearGradient id="protecttion_SVGID_1_" gradientUnits="userSpaceOnUse" x1="171.8584" y1="373.8224" x2="570.7385" y2="-25.0576" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5609)">
+                                            <stop offset="0" style="stop-color:#62E1FB"></stop>
+                                            <stop offset="1" style="stop-color:#00A2F3"></stop>
+                                        </linearGradient>
+                                        <path style="fill:url(#protecttion_SVGID_1_);" d="M490.437,123.627c-0.159-11.453-8.759-20.995-20.119-22.463  c-104.84-13.551-177.63-72.627-203.704-96.98c-5.973-5.579-15.257-5.579-21.23,0c-26.074,24.353-98.863,83.429-203.704,96.98  c-11.359,1.468-19.96,11.011-20.119,22.463C20.526,198.626,33.467,456.367,256,512C478.534,456.367,491.475,198.626,490.437,123.627  z"></path>
+                                        <linearGradient id="protecttion_SVGID_2_" gradientUnits="userSpaceOnUse" x1="447.2291" y1="259.543" x2="178.8491" y2="259.543" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5609)">
+                                            <stop offset="0" style="stop-color:#00A2F3;stop-opacity:0"></stop>
+                                            <stop offset="1" style="stop-color:#0075CD"></stop>
+                                        </linearGradient>
+                                        <path style="fill:url(#protecttion_SVGID_2_);" d="M287.674,502.235c1.559-0.577,3.107-1.165,4.643-1.763c1.984-0.773,3.948-1.564,5.893-2.373  c1.279-0.532,2.55-1.072,3.812-1.618c1.988-0.861,3.958-1.738,5.905-2.636c0.732-0.337,1.459-0.679,2.185-1.021  c1.795-0.847,3.571-1.711,5.33-2.588c2.553-1.273,5.07-2.577,7.549-3.912c2.369-1.276,4.712-2.575,7.015-3.907  c2.645-1.53,5.245-3.096,7.805-4.696c0.058-0.037,0.118-0.072,0.178-0.108c4.868-3.048,9.575-6.226,14.139-9.515  c0.343-0.247,0.692-0.49,1.033-0.738c3.331-2.424,6.575-4.915,9.747-7.459c0.316-0.253,0.638-0.503,0.952-0.757  c1.796-1.454,3.56-2.932,5.306-4.423c1.628-1.39,3.243-2.79,4.828-4.211c0.536-0.48,1.061-0.968,1.592-1.451  c0.555-0.505,1.114-1.007,1.664-1.517c1.634-1.514,3.239-3.049,4.826-4.595c0.501-0.488,1.007-0.972,1.503-1.463  c1.721-1.702,3.408-3.425,5.076-5.163c0.337-0.351,0.681-0.701,1.016-1.053c1.963-2.068,3.887-4.16,5.776-6.276  c0.027-0.031,0.055-0.061,0.083-0.091c2.391-2.681,4.716-5.403,6.99-8.156c1.367-1.654,2.721-3.318,4.047-4.997  c2.618-3.315,5.154-6.677,7.614-10.078c0.028-0.038,0.056-0.076,0.084-0.115c0.577-0.799,1.143-1.602,1.713-2.405  c0.248-0.35,0.501-0.699,0.747-1.05c0.399-0.568,0.788-1.14,1.183-1.711c0.408-0.59,0.82-1.179,1.225-1.771  c1.318-1.936,2.606-3.885,3.877-5.843c1.788-2.756,3.536-5.531,5.231-8.328c2.088-3.442,4.104-6.915,6.057-10.412  c0.082-0.149,0.168-0.295,0.25-0.444c0.434-0.779,0.858-1.562,1.285-2.343c0.239-0.438,0.483-0.873,0.72-1.312  c1.216-2.248,2.401-4.507,3.563-6.772c0.1-0.196,0.204-0.392,0.304-0.587c0.469-0.919,0.93-1.84,1.389-2.762  c0.157-0.314,0.317-0.626,0.474-0.941c0.253-0.509,0.498-1.02,0.748-1.53c1.572-3.204,3.098-6.422,4.569-9.654  c2.599-5.708,5.04-11.453,7.339-17.214c0.718-1.799,1.427-3.599,2.116-5.4c1.819-4.751,3.538-9.51,5.168-14.268  c0.101-0.297,0.207-0.593,0.308-0.89c0.309-0.909,0.611-1.817,0.914-2.727c0.118-0.354,0.24-0.709,0.356-1.063  c1.151-3.486,2.251-6.969,3.308-10.446c0.092-0.303,0.188-0.607,0.279-0.912c0.556-1.844,1.095-3.685,1.625-5.525  c0.592-2.052,1.171-4.102,1.732-6.148c0.839-3.064,1.642-6.119,2.413-9.163c0.46-1.812,0.912-3.622,1.347-5.425  c0.193-0.797,0.379-1.591,0.568-2.387c0.104-0.44,0.211-0.88,0.314-1.32c0.508-2.171,0.997-4.334,1.473-6.49  c0.065-0.295,0.133-0.59,0.197-0.885c0.394-1.8,0.773-3.592,1.144-5.38c0.209-1.005,0.416-2.008,0.617-3.009  c0.407-2.012,0.802-4.017,1.182-6.01c0.009-0.047,0.019-0.095,0.027-0.143c0.354-1.865,0.695-3.721,1.027-5.569  c0.308-1.716,0.61-3.426,0.9-5.126c0.337-1.979,0.659-3.943,0.97-5.899c0.059-0.371,0.12-0.745,0.179-1.115  c0.052-0.329,0.1-0.655,0.152-0.984c0.128-0.828,0.258-1.657,0.383-2.481c0.304-2.011,0.593-4.006,0.872-5.987  c0.04-0.288,0.083-0.578,0.123-0.865c0.102-0.739,0.202-1.473,0.301-2.208c0.053-0.391,0.107-0.783,0.16-1.172  c0.044-0.332,0.085-0.661,0.13-0.991c0.399-3.027,0.771-6.018,1.114-8.966c0.751-6.443,1.373-12.688,1.888-18.698  c0.008-0.09,0.016-0.183,0.024-0.273c0.129-1.504,0.248-2.989,0.362-4.462c0.057-0.74,0.114-1.478,0.169-2.21  c0.254-3.408,0.473-6.729,0.661-9.959c0.071-1.226,0.141-2.444,0.203-3.641c0.132-2.501,0.243-4.936,0.339-7.313  c0.028-0.699,0.055-1.391,0.08-2.079c0.139-3.729,0.238-7.295,0.304-10.677c0.001-0.061,0.003-0.124,0.004-0.186  c0.072-3.784,0.104-7.336,0.106-10.641c0-0.066,0-0.136,0-0.202c0.001-2.689-0.018-5.21-0.05-7.554  c-0.159-11.455-8.76-20.998-20.122-22.467c-2.924-0.378-5.815-0.804-8.688-1.251c-0.637-0.099-1.275-0.198-1.909-0.3  c-2.801-0.452-5.582-0.93-8.334-1.444c-0.413-0.077-0.819-0.161-1.23-0.239c-2.501-0.477-4.98-0.979-7.441-1.505  c-0.529-0.112-1.06-0.222-1.587-0.337c-2.681-0.585-5.337-1.2-7.968-1.839c-0.553-0.135-1.101-0.274-1.652-0.411  c-2.433-0.604-4.845-1.227-7.233-1.875c-0.31-0.084-0.623-0.164-0.933-0.248c-2.593-0.711-5.154-1.452-7.696-2.211  c-0.577-0.173-1.152-0.346-1.727-0.521c-2.544-0.774-5.07-1.563-7.561-2.381c-0.136-0.044-0.268-0.091-0.404-0.136  c-2.397-0.791-4.764-1.605-7.111-2.435c-0.532-0.188-1.066-0.374-1.596-0.565c-2.389-0.856-4.756-1.729-7.092-2.62  c-0.398-0.152-0.789-0.307-1.186-0.46c-2.114-0.816-4.206-1.645-6.276-2.488c-0.409-0.167-0.821-0.33-1.228-0.497  c-2.27-0.934-4.51-1.882-6.724-2.844c-0.483-0.21-0.961-0.421-1.441-0.631c-2.09-0.919-4.161-1.845-6.201-2.786  c-0.186-0.085-0.374-0.169-0.559-0.255c-2.172-1.006-4.309-2.026-6.424-3.054c-0.479-0.233-0.956-0.466-1.433-0.699  c-2.091-1.026-4.161-2.06-6.194-3.104c-0.202-0.103-0.398-0.209-0.599-0.312c-1.898-0.979-3.768-1.966-5.615-2.957  c-0.417-0.224-0.834-0.446-1.249-0.67c-1.944-1.052-3.859-2.108-5.744-3.169c-0.356-0.201-0.707-0.403-1.061-0.603  c-1.702-0.965-3.38-1.933-5.033-2.903c-0.295-0.174-0.595-0.346-0.889-0.52c-1.817-1.073-3.6-2.147-5.358-3.223  c-0.394-0.241-0.783-0.482-1.174-0.723c-1.723-1.062-3.425-2.125-5.09-3.186c-0.056-0.036-0.114-0.072-0.172-0.108  c-1.714-1.094-3.386-2.186-5.037-3.275c-0.37-0.245-0.74-0.489-1.107-0.733c-1.606-1.067-3.188-2.132-4.732-3.19  c-0.207-0.142-0.407-0.282-0.612-0.424c-1.412-0.972-2.794-1.938-4.152-2.898c-0.3-0.213-0.603-0.426-0.902-0.637  c-1.459-1.038-2.886-2.068-4.282-3.089c-0.287-0.211-0.568-0.419-0.852-0.627c-1.268-0.934-2.512-1.859-3.728-2.776  c-0.182-0.138-0.369-0.276-0.55-0.414c-1.327-1.005-2.616-1.997-3.878-2.978c-0.289-0.225-0.573-0.447-0.859-0.671  c-1.258-0.984-2.495-1.959-3.686-2.914c-0.025-0.02-0.048-0.039-0.073-0.059c-1.183-0.949-2.32-1.877-3.435-2.794  c-0.25-0.206-0.5-0.411-0.747-0.614c-1.091-0.903-2.154-1.79-3.179-2.656c-0.164-0.139-0.318-0.271-0.48-0.409  c-0.925-0.785-1.82-1.554-2.689-2.307c-0.18-0.156-0.363-0.314-0.541-0.469c-0.942-0.819-1.847-1.616-2.721-2.394  c-0.187-0.167-0.366-0.327-0.55-0.492c-0.798-0.714-1.572-1.411-2.312-2.084c-0.088-0.08-0.182-0.165-0.269-0.244  c-0.798-0.729-1.551-1.425-2.278-2.102c-0.074-0.07-0.161-0.148-0.235-0.217C263.629,1.394,259.814,0,256,0v512  c4.936-1.234,9.764-2.572,14.496-4.001C276.378,506.223,282.1,504.297,287.674,502.235z"></path>
+                                        <linearGradient id="protecttion_SVGID_3_" gradientUnits="userSpaceOnUse" x1="175.201" y1="366.765" x2="393.2611" y2="148.705" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5609)">
+                                            <stop offset="0" style="stop-color:#A7F3CE"></stop>
+                                            <stop offset="1" style="stop-color:#61DB99"></stop>
+                                        </linearGradient>
+                                        <path style="fill:url(#protecttion_SVGID_3_);" d="M462.637,139.324c-0.14-10.094-7.72-18.505-17.732-19.799  c-92.408-11.944-156.566-64.014-179.547-85.479c-5.265-4.917-13.448-4.917-18.712,0c-22.982,21.465-87.139,73.535-179.547,85.479  c-10.012,1.294-17.593,9.705-17.732,19.799C48.45,205.429,59.856,432.606,256,481.642  C452.145,432.606,463.551,205.429,462.637,139.324z"></path>
+                                        <path style="fill:#FFFFFF;" d="M256,464.258l-2.313-0.578c-41.606-10.402-77.193-30.464-105.772-59.63  c-23.724-24.212-42.787-54.862-56.661-91.098c-24.11-62.972-26.953-127.078-26.502-159.687  c0.186-13.504,10.463-24.997,23.903-26.734c78.347-10.127,132.824-54.202,152.609-72.682c8.262-7.718,21.208-7.717,29.471-0.001  c19.785,18.481,74.262,62.556,152.608,72.683c13.442,1.738,23.719,13.232,23.904,26.734  c0.851,61.527-10.256,265.745-188.935,310.416L256,464.258z M256,67.106c-0.619,0-1.238,0.225-1.721,0.676  c-21.134,19.739-79.339,66.821-163.179,77.657c-4.094,0.529-7.225,4.008-7.282,8.089C83.02,211.239,93.137,402.105,256,444.59  c162.863-42.485,172.981-233.351,172.183-291.062l0,0c-0.057-4.082-3.187-7.56-7.283-8.089  c-83.839-10.836-142.045-57.918-163.178-77.657C257.238,67.331,256.62,67.106,256,67.106z"></path>
+                                        <linearGradient id="protecttion_SVGID_4_" gradientUnits="userSpaceOnUse" x1="427.8791" y1="259.543" x2="159.679" y2="259.543" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5609)">
+                                            <stop offset="0" style="stop-color:#61DB99;stop-opacity:0"></stop>
+                                            <stop offset="1" style="stop-color:#009E74"></stop>
+                                        </linearGradient>
+                                        <path style="fill:url(#protecttion_SVGID_4_);" d="M462.637,139.324c-0.14-10.094-7.72-18.505-17.732-19.799  c-92.408-11.944-156.566-64.014-179.547-85.479c-2.632-2.459-5.994-3.688-9.357-3.688v451.285  C452.145,432.606,463.551,205.429,462.637,139.324z"></path>
+                                        <linearGradient id="protecttion_SVGID_5_" gradientUnits="userSpaceOnUse" x1="403.5391" y1="163.033" x2="301.3791" y2="265.193" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5609)">
+                                            <stop offset="0" style="stop-color:#61DB99;stop-opacity:0"></stop>
+                                            <stop offset="1" style="stop-color:#009E74"></stop>
+                                        </linearGradient>
+                                        <path style="fill:url(#protecttion_SVGID_5_);" d="M473.862,271.119c-16.494,66.68-48.831,139.224-111.465,189.179L168.318,266.22  c-7.098-7.098-7.098-18.613,0-25.72c7.098-7.108,18.623-7.108,25.72,0l39.043,39.043c4.809,4.799,12.639,4.799,17.428,0  L353.542,176.52c7.108-7.108,18.623-7.108,25.72,0h0.01L473.862,271.119z"></path>
+                                        <linearGradient id="protecttion_SVGID_6_" gradientUnits="userSpaceOnUse" x1="272.5345" y1="297.083" x2="272.5345" y2="178.673" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5609)">
+                                            <stop offset="0" style="stop-color:#FFF465"></stop>
+                                            <stop offset="1" style="stop-color:#FFE600"></stop>
+                                        </linearGradient>
+                                        <path style="fill:url(#protecttion_SVGID_6_);" d="M379.271,176.523c7.104,7.104,7.103,18.62-0.001,25.723l-103.032,103.02  c-18.991,18.992-49.895,18.992-68.873,0l-39.045-39.045c-7.102-7.102-7.104-18.616-0.003-25.719l0,0  c7.103-7.106,18.621-7.108,25.725-0.003l39.038,39.038c4.805,4.805,12.635,4.805,17.428,0l103.033-103.022  c7.103-7.103,18.619-7.102,25.721,0.001L379.271,176.523z"></path>
+                                    </svg>
+                                </div>
+                                <div class="ot-icon-box__content">
+                                    <h5 class="icon-box-title">Advanced Protection</h5>
+                                    <div class="space-4"></div>
+                                    <div class="icon-box-des">Safeguard files with password protection and expiration dates to ensure secure, controlled access.</div>
+                                </div>  
+                            </div>
+                            <div class="space-30"></div>
+                            <div class="ot-icon-box service-h4">
+                                <div class="ot-icon-box__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 510 510"><linearGradient id="target_SVGID_1_" gradientUnits="userSpaceOnUse" x1="-12" x2="504.14" y1="255" y2="255"><stop offset="0" stop-color="#fe99a0"></stop><stop offset=".593" stop-color="#fe646f"></stop><stop offset="1" stop-color="#e41f2d"></stop></linearGradient><linearGradient id="target_SVGID_2_" gradientUnits="userSpaceOnUse" x1="257.617" x2="536.607" y1="255" y2="255"><stop offset="0" stop-color="#fe646f"></stop><stop offset=".7043" stop-color="#e41f2d"></stop><stop offset="1" stop-color="#c41926"></stop></linearGradient><linearGradient id="target_SVGID_3_" gradientUnits="userSpaceOnUse" x1="74" x2="430.14" y1="255" y2="255"><stop offset="0" stop-color="#f2fbff"></stop><stop offset=".593" stop-color="#faf7f7"></stop><stop offset="1" stop-color="#f3eae6"></stop></linearGradient><linearGradient id="lg1"><stop offset="0" stop-color="#f3eae6"></stop><stop offset="1" stop-color="#cdbfba"></stop></linearGradient><linearGradient id="target_SVGID_5_" gradientUnits="userSpaceOnUse" x1="207" x2="431.154" xlink:href="#lg1" y1="261.37" y2="261.37"></linearGradient><linearGradient id="target_SVGID_6_" gradientUnits="userSpaceOnUse" x1="207" x2="431.154" xlink:href="#lg1" y1="166.885" y2="166.885"></linearGradient><linearGradient id="lg2"><stop offset="0" stop-color="#fff9df"></stop><stop offset=".593" stop-color="#ffe177"></stop><stop offset="1" stop-color="#feb137"></stop></linearGradient><linearGradient id="target_SVGID_7_" gradientUnits="userSpaceOnUse" x1="357" x2="511.029" xlink:href="#lg2" y1="75.395" y2="75.395"></linearGradient><linearGradient id="target_SVGID_8_" gradientUnits="userSpaceOnUse" x1="345.333" x2="515.016" xlink:href="#lg2" y1="75.395" y2="75.395"></linearGradient><linearGradient id="target_SVGID_9_" gradientUnits="userSpaceOnUse" x1="345.333" x2="480" xlink:href="#lg2" y1="64.562" y2="64.562"></linearGradient><linearGradient id="target_SVGID_10_" gradientUnits="userSpaceOnUse" x1="345.333" x2="452" xlink:href="#lg2" y1="53.729" y2="53.729"></linearGradient><linearGradient id="target_SVGID_11_" gradientUnits="userSpaceOnUse" x1="237.5" x2="469.443" y1="156.528" y2="156.528"><stop offset="0" stop-color="#01d0fb"></stop><stop offset=".6075" stop-color="#26a6fe"></stop><stop offset="1" stop-color="#0182fc"></stop></linearGradient><g><circle cx="255" cy="255" fill="url(#target_SVGID_1_)" r="255"></circle><path d="m255 0c-6.735 0-13.408.266-20.012.778 58.536 4.544 111.517 28.865 152.299 66.272l-8.952 8.952c-7.963 7.963-11.183 19.509-8.491 30.444l8.097 32.882-128.118 128.12-12.323-12.323v32.125h.011c.058 4.401 1.756 8.785 5.115 12.144 3.417 3.417 7.896 5.125 12.375 5.125s8.958-1.708 12.375-5.125l125.614-125.615 32.882 8.097c10.935 2.692 22.481-.528 30.444-8.491l.227-.227c8.701 25.69 13.434 53.212 13.434 81.842 0 134.097-103.51 244.014-234.988 254.222 6.603.512 13.276.778 20.011.778 140.833 0 255-114.167 255-255s-114.167-255-255-255z" fill="url(#target_SVGID_2_)"></path><g fill="url(#target_SVGID_3_)"><circle cx="255" cy="255" r="30"></circle><path d="m255 75c-99.411 0-180 80.589-180 180s80.589 180 180 180 180-80.589 180-180-80.589-180-180-180zm0 285c-57.99 0-105-47.01-105-105s47.01-105 105-105 105 47.01 105 105-47.01 105-105 105z"></path></g><g><path d="m249.82 267.45-12.32-12.33v24.24c4.92 3.55 10.97 5.64 17.5 5.64 16.57 0 30-13.43 30-30 0-6.42-2.02-12.38-5.47-17.26z" fill="url(#target_SVGID_5_)"></path><path d="m372.93 119.01 5.01 20.32-45.14 45.14c8.02 8.85 14.56 19.08 19.21 30.29l40.98-40.98 25.74 6.34c-10.78-23.54-26.49-44.35-45.8-61.11z" fill="url(#target_SVGID_6_)"></path></g><path d="m499.383 68.38-46.349-11.413-11.413-46.349c-2.596-10.543-15.716-14.203-23.395-6.525l-49.592 49.592c-7.963 7.963-11.183 19.509-8.491 30.444l12.987 52.741 52.741 12.987c10.935 2.692 22.481-.528 30.444-8.491l49.592-49.592c7.678-7.678 4.019-20.798-6.524-23.394z" fill="url(#target_SVGID_7_)"></path><path d="m499.383 68.38-46.349-11.413-11.413-46.349c-2.596-10.543-15.716-14.203-23.395-6.525l-49.592 49.592c-7.963 7.963-11.183 19.509-8.491 30.444l12.987 52.741 52.741 12.987c10.935 2.692 22.481-.528 30.444-8.491l49.592-49.592c7.678-7.678 4.019-20.798-6.524-23.394z" fill="url(#target_SVGID_8_)"></path><path d="m499.383 68.38-46.349-11.413-11.413-46.349c-2.596-10.543-15.715-14.202-23.393-6.526l-27.926 27.926c-7.963 7.963-11.183 19.51-8.491 30.444l12.987 52.741 52.741 12.987c10.935 2.692 22.481-.528 30.444-8.491l27.925-27.925c7.677-7.678 4.018-20.798-6.525-23.394z" fill="url(#target_SVGID_9_)"></path><path d="m499.383 68.38-46.349-11.413-11.413-46.349c-2.596-10.542-15.714-14.202-23.392-6.527l-6.261 6.261c-7.963 7.963-11.183 19.509-8.491 30.444l12.987 52.741 52.741 12.987c10.935 2.692 22.481-.528 30.444-8.491l6.258-6.258c7.678-7.679 4.019-20.799-6.524-23.395z" fill="url(#target_SVGID_10_)"></path><path d="m255 272.5c-4.479 0-8.957-1.708-12.375-5.125-6.834-6.834-6.834-17.915 0-24.749l196.944-196.944c6.834-6.834 17.914-6.834 24.749 0 6.834 6.834 6.834 17.915 0 24.749l-196.943 196.944c-3.417 3.417-7.896 5.125-12.375 5.125z" fill="url(#target_SVGID_11_)"></path></g></svg>
+                                </div>
+                                <div class="ot-icon-box__content">
+                                    <h5 class="icon-box-title">Reliable Service</h5>
+                                    <div class="space-4"></div>
+                                    <div class="icon-box-des">Transfer large files up to 20 GB with 1 TB storage, ensuring quick and dependable delivery.</div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="ot-position-left">
+                            <div class="ot-icon-box service-h4">
+                                <div class="ot-icon-box__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+                                        <linearGradient id="fb1_SVGID_1_" gradientUnits="userSpaceOnUse" x1="233.9092" y1="411.5636" x2="274.5492" y2="318.6936" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5615)">
+                                            <stop offset="0" style="stop-color:#FFE7A5"></stop>
+                                            <stop offset="1" style="stop-color:#FFBF5C"></stop>
+                                        </linearGradient>
+                                        <path style="fill:url(#fb1_SVGID_1_);" d="M313.093,92.571c-2.918,32.805-10.882,64.419-23.891,94.709H180.92  c26.421-40.011,38.787-81.893,37.771-128.434c-0.306-14.783,10.398-27.517,24.987-29.904c0.322-0.048,0.628-0.096,0.952-0.146  C282.802,22.558,316.494,54.026,313.093,92.571z"></path>
+                                        <linearGradient id="fb1_SVGID_2_" gradientUnits="userSpaceOnUse" x1="257.2702" y1="220.3267" x2="507.7102" y2="103.4567" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5615)">
+                                            <stop offset="0" style="stop-color:#FFE7A5"></stop>
+                                            <stop offset="1" style="stop-color:#FFBF5C"></stop>
+                                        </linearGradient>
+                                        <path style="fill:url(#fb1_SVGID_2_);" d="M466.887,179.642l-346.774-0.015v268.858h123.775h162.372h13.497  c35.134,0,65.12-25.398,70.902-60.054l20.715-156.265C515.961,204.672,494.76,179.642,466.887,179.642z"></path>
+                                        <linearGradient id="fb1_SVGID_3_" gradientUnits="userSpaceOnUse" x1="410.9186" y1="201.7148" x2="152.0086" y2="201.7148" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5615)">
+                                            <stop offset="0" style="stop-color:#FFE7A5;stop-opacity:0"></stop>
+                                            <stop offset="1" style="stop-color:#FFBF5C"></stop>
+                                        </linearGradient>
+                                        <path style="fill:url(#fb1_SVGID_3_);" d="M406.261,448.485h13.497c24.736,0,46.906-12.599,59.889-32.145l-294.8-236.712l-64.735-0.003  v268.858h123.776L406.261,448.485z"></path>
+                                        <linearGradient id="fb1_SVGID_4_" gradientUnits="userSpaceOnUse" x1="134.2192" y1="262.6935" x2="233.2292" y2="-31.6365" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5615)">
+                                            <stop offset="0" style="stop-color:#F2F2F2"></stop>
+                                            <stop offset="1" style="stop-color:#C3C3C3"></stop>
+                                        </linearGradient>
+                                        <path style="fill:url(#fb1_SVGID_4_);" d="M171.587,464.925h-32.112c-7.75,0-14.033-6.283-14.033-14.033V177.22  c0-7.75,6.283-14.033,14.033-14.033h32.112c7.75,0,14.033,6.283,14.033,14.033v273.672  C185.62,458.643,179.338,464.925,171.587,464.925z"></path>
+                                        <linearGradient id="fb1_SVGID_5_" gradientUnits="userSpaceOnUse" x1="151.5253" y1="197.3172" x2="46.8353" y2="247.9773" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5615)">
+                                            <stop offset="0" style="stop-color:#C3C3C3;stop-opacity:0"></stop>
+                                            <stop offset="1" style="stop-color:#777777"></stop>
+                                        </linearGradient>
+                                        <path style="fill:url(#fb1_SVGID_5_);" d="M150.124,163.186h-10.65c-7.75,0-14.033,6.283-14.033,14.033v273.673  c0,7.75,6.283,14.033,14.033,14.033h32.112c7.75,0,14.033-6.283,14.033-14.033V198.68L150.124,163.186z"></path>
+                                        <linearGradient id="fb1_SVGID_6_" gradientUnits="userSpaceOnUse" x1="60.6603" y1="239.2635" x2="180.5493" y2="-85.3864" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5615)">
+                                            <stop offset="0" style="stop-color:#62E1FB"></stop>
+                                            <stop offset="1" style="stop-color:#00A2F3"></stop>
+                                        </linearGradient>
+                                        <path style="fill:url(#fb1_SVGID_6_);" d="M135.388,483.996H14.634C6.552,483.996,0,477.444,0,469.362V158.749  c0-8.082,6.552-14.634,14.634-14.634h120.754c8.083,0,14.634,6.552,14.634,14.634v310.612  C150.022,477.444,143.47,483.996,135.388,483.996z"></path>
+                                        <linearGradient id="fb1_SVGID_7_" gradientUnits="userSpaceOnUse" x1="123.6008" y1="254.9955" x2="20.5598" y2="358.0355" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5615)">
+                                            <stop offset="0" style="stop-color:#00A2F3;stop-opacity:0"></stop>
+                                            <stop offset="1" style="stop-color:#0075CD"></stop>
+                                        </linearGradient>
+                                        <path style="fill:url(#fb1_SVGID_7_);" d="M150.022,234.163l-47.821-47.821c-6.747-7.347-16.429-11.955-27.19-11.955  c-20.386,0-36.912,16.527-36.912,36.912c0,10.761,4.608,20.444,11.955,27.19l99.969,99.968V234.163z"></path>
+                                        <linearGradient id="fb1_SVGID_8_" gradientUnits="userSpaceOnUse" x1="74.5286" y1="327.1533" x2="74.5286" y2="273.9833" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5615)">
+                                            <stop offset="0" style="stop-color:#FFF465"></stop>
+                                            <stop offset="1" style="stop-color:#FFE600"></stop>
+                                        </linearGradient>
+                                        <circle style="fill:url(#fb1_SVGID_8_);" cx="75.013" cy="211.296" r="36.912"></circle>
+                                        <linearGradient id="fb1_SVGID_9_" gradientUnits="userSpaceOnUse" x1="74.5286" y1="288.1433" x2="74.5286" y2="324.8333" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5615)">
+                                            <stop offset="0" style="stop-color:#FFF465"></stop>
+                                            <stop offset="1" style="stop-color:#FFE600"></stop>
+                                        </linearGradient>
+                                        <circle style="fill:url(#fb1_SVGID_9_);" cx="75.013" cy="211.296" r="25.474"></circle>
+                                        <g>
+                                            <circle style="fill:#FFB92D;" cx="65.335" cy="201.618" r="5.271"></circle>
+                                            <circle style="fill:#FFB92D;" cx="84.691" cy="201.618" r="5.271"></circle>
+                                            <circle style="fill:#FFB92D;" cx="65.335" cy="220.984" r="5.271"></circle>
+                                            <circle style="fill:#FFB92D;" cx="84.691" cy="220.984" r="5.271"></circle>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="ot-icon-box__content">
+                                    <h5 class="icon-box-title">Efficient File Management</h5>
+                                    <div class="space-4"></div>
+                                    <div class="icon-box-des">Easily organize and customize file transfers with personalized URLs and transfer backgrounds.</div>
+                                </div>  
+                            </div>
+                            <div class="space-30"></div>
+                            <div class="ot-icon-box service-h4">
+                                <div class="ot-icon-box__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;" xml:space="preserve">
+                                        <linearGradient id="chart_h1_SVGID_1_" gradientUnits="userSpaceOnUse" x1="307.4912" y1="216.7054" x2="554.6512" y2="-30.4546" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5609)">
+                                            <stop offset="0" style="stop-color:#A7F3CE"></stop>
+                                            <stop offset="1" style="stop-color:#61DB99"></stop>
+                                        </linearGradient>
+                                        <path style="fill:url(#chart_h1_SVGID_1_);" d="M340.366,164.133c93.488-1.428,169.792,72.153,171.602,165.634  c0.266,13.725-1.106,27.084-3.932,39.898c-4.786,21.697-7.631,43.776-7.631,65.995v42.948c0,6.58-5.334,11.914-11.914,11.914  h-42.948c-22.219,0-44.298,2.845-65.995,7.631c-12.813,2.826-26.172,4.198-39.897,3.932  c-93.48-1.809-167.061-78.111-165.635-171.597C175.407,239.238,249.117,165.527,340.366,164.133z"></path>
+                                        <linearGradient id="chart_h1_SVGID_2_" gradientUnits="userSpaceOnUse" x1="388.3985" y1="135.8026" x2="283.4185" y2="240.7726" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5609)">
+                                            <stop offset="0" style="stop-color:#61DB99;stop-opacity:0"></stop>
+                                            <stop offset="1" style="stop-color:#009E74"></stop>
+                                        </linearGradient>
+                                        <path style="fill:url(#chart_h1_SVGID_2_);" d="M340.366,164.133c93.488-1.428,169.792,72.153,171.602,165.634  c0.266,13.725-1.106,27.084-3.932,39.898c-4.786,21.697-7.631,43.776-7.631,65.995v42.948c0,6.58-5.334,11.914-11.914,11.914  h-42.948c-22.219,0-44.298,2.845-65.995,7.631c-12.813,2.826-26.172,4.198-39.897,3.932  c-93.48-1.809-167.061-78.111-165.635-171.597C175.407,239.238,249.117,165.527,340.366,164.133z"></path>
+                                        <linearGradient id="chart_h1_SVGID_3_" gradientUnits="userSpaceOnUse" x1="129.97" y1="332.7742" x2="390.92" y2="71.8242" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5609)">
+                                            <stop offset="0" style="stop-color:#62E1FB"></stop>
+                                            <stop offset="1" style="stop-color:#00A2F3"></stop>
+                                        </linearGradient>
+                                        <path style="fill:url(#chart_h1_SVGID_3_);" d="M209.098,9.909C95.204,8.169,2.245,97.81,0.039,211.696  c-0.323,16.719,1.348,32.996,4.792,48.606c5.83,26.432,9.296,53.331,9.296,80.4v52.322c0,8.016,6.498,14.515,14.515,14.515h52.322  c27.068,0,53.967,3.466,80.4,9.296c15.61,3.443,31.886,5.115,48.605,4.791c113.884-2.205,203.525-95.161,201.789-209.053  C410.062,101.406,320.264,11.606,209.098,9.909z"></path>
+                                        <linearGradient id="chart_h1_SVGID_4_" gradientUnits="userSpaceOnUse" x1="179.0384" y1="218.1926" x2="41.6444" y2="355.5826" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5609)">
+                                            <stop offset="0" style="stop-color:#00A2F3;stop-opacity:0"></stop>
+                                            <stop offset="1" style="stop-color:#0075CD"></stop>
+                                        </linearGradient>
+                                        <path style="fill:url(#chart_h1_SVGID_4_);" d="M132.193,204.739c-5.816-6.18-14.048-10.061-23.206-10.061  c-17.613,0-31.891,14.278-31.891,31.891c0,9.157,3.88,17.389,10.061,23.206l68.794,68.794c5.817,6.18,14.049,10.061,23.206,10.061  c17.613,0,31.891-14.278,31.891-31.891c0-9.157-3.881-17.389-10.061-23.206L132.193,204.739z"></path>
+                                        <circle style="fill:#FFFFFF;" cx="108.986" cy="226.565" r="31.891"></circle>
+                                        <linearGradient id="chart_h1_SVGID_5_" gradientUnits="userSpaceOnUse" x1="268.8719" y1="218.196" x2="131.4819" y2="355.586" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5609)">
+                                            <stop offset="0" style="stop-color:#00A2F3;stop-opacity:0"></stop>
+                                            <stop offset="1" style="stop-color:#0075CD"></stop>
+                                        </linearGradient>
+                                        <path style="fill:url(#chart_h1_SVGID_5_);" d="M222.383,204.739c-5.816-6.18-14.048-10.061-23.206-10.061  c-17.613,0-31.891,14.278-31.891,31.891c0,9.157,3.88,17.389,10.061,23.206l68.794,68.794c5.817,6.18,14.049,10.061,23.206,10.061  c17.613,0,31.891-14.278,31.891-31.891c0-9.157-3.881-17.389-10.061-23.206L222.383,204.739z"></path>
+                                        <circle style="fill:#FFFFFF;" cx="199.178" cy="226.565" r="31.891"></circle>
+                                        <linearGradient id="chart_h1_SVGID_6_" gradientUnits="userSpaceOnUse" x1="358.7104" y1="218.1945" x2="221.3204" y2="355.5845" gradientTransform="matrix(1.0039 0 0 -1.0039 0.1922 516.5609)">
+                                            <stop offset="0" style="stop-color:#00A2F3;stop-opacity:0"></stop>
+                                            <stop offset="1" style="stop-color:#0075CD"></stop>
+                                        </linearGradient>
+                                        <path style="fill:url(#chart_h1_SVGID_6_);" d="M312.572,204.739c-5.816-6.18-14.048-10.061-23.206-10.061  c-17.613,0-31.891,14.278-31.891,31.891c0,9.157,3.881,17.389,10.061,23.206l68.794,68.794c5.817,6.18,14.049,10.061,23.206,10.061  c17.613,0,31.891-14.278,31.891-31.891c0-9.157-3.881-17.389-10.061-23.206L312.572,204.739z"></path>
+                                        <circle style="fill:#FFFFFF;" cx="289.371" cy="226.565" r="31.891"></circle>
+                                    </svg>
+                                </div>
+                                <div class="ot-icon-box__content">
+                                    <h5 class="icon-box-title">Dedicated Support</h5>
+                                    <div class="space-4"></div>
+                                    <div class="icon-box-des">Count on our support team for prompt assistance with any file transfer or customization needs.</div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="space-50"></div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <a href="#" class="octf-btn octf-btn-third btn-medium">Learn More</a>
+                    </div>
+                </div> -->
+                <div class="space-90"></div>
+                <div class="space-60 d-none d-md-block"></div>
+            </div>
+        </section>
+
+        <section class="pricing-sec-1">
+            <div class="container">
+                <div class="space-90"></div>
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3 text-center px-lg-0">
+                        <div class="ssub-yes">
+                            <div class="ot-heading">
+                                <span class="ot-heading__sub">Pricing</span>
+                                <!-- <h2 class="ot-heading__title">The Right Price for You</h2> -->
+                            </div>
+                        </div>
+                        <div class="space-10"></div>
+                        <div class="space-5"></div>
+                        <p>Get control and visibility over spending. Try any plan free for 7 days with no lock-in commitments.</p>
+                        <div class="space-20"></div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <div class="ot-pricing-table --second-color pricing-border radius-main">
+                            <div class="ot-pricing-table__header">
+                                <h3 class="ot-pricing-table__title">100 GB</h3>
+                                <!-- <span class="ot-pricing-table__subtitle">The easy, safe way to manage online spending at work</span>
+ -->                            </div>
+                            <div class="ot-pricing-table__price">
+                                <div class="ot-pricing-table__price-main">₹ 150<span class="ot-pricing-table__period">/m</span></div>
+                                <!-- <span class="ot-pricing-table__price-extra">$159/year</span> -->
+                            </div>
+                            
+                            
+                            <div class="ot-pricing-table__footer">
+                                <a href="https://auth.weddingbook.in/Nw/ST" class="octf-btn octf-btn-second --price-link-trial">Start Now</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <div class="ot-pricing-table --second-color pricing-border radius-main">
+                            <div class="ot-pricing-table__header">
+                                <h3 class="ot-pricing-table__title">500 GB</h3>
+                                <!-- <span class="ot-pricing-table__subtitle">The complete spend management solution for all your spending</span> -->
+                            </div>
+                            <div class="ot-pricing-table__price">
+                                <div class="ot-pricing-table__price-main">₹ 500<span class="ot-pricing-table__period">/m</span></div>
+                                <!-- <span class="ot-pricing-table__price-extra">$159/year</span> -->
+                            </div>
+                            
+                            <div class="ot-pricing-table__footer">
+                                <a href="https://auth.weddingbook.in/Nw/ST" class="octf-btn --price-link-trial">Start Now</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="ot-pricing-table --third-color pricing-border radius-main">
+                            <div class="ot-pricing-table__header">
+                                <h3 class="ot-pricing-table__title">1 TB</h3>
+                                <!-- <span class="ot-pricing-table__subtitle">The easy, safe way to manage online spending at work</span> -->
+                            </div>
+                            <div class="ot-pricing-table__price">
+                                <div class="ot-pricing-table__price-main">₹ 900<span class="ot-pricing-table__period">/m</span></div>
+                                <!-- <span class="ot-pricing-table__price-extra">$159/year</span> -->
+                            </div>
+                            
+                            
+                            
+                            <div class="ot-pricing-table__footer">
+                                <a href="#" class="octf-btn octf-btn-third --price-link-trial">Start Now</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-lg-3 col-md-6">
+                        <div class="ot-pricing-table --third-color pricing-border radius-main">
+                            <div class="ot-pricing-table__header">
+                                <h3 class="ot-pricing-table__title">5 TB</h3>
+                                <!-- <span class="ot-pricing-table__subtitle">The easy, safe way to manage online spending at work</span> -->
+                            </div>
+                            <div class="ot-pricing-table__price">
+                                <div class="ot-pricing-table__price-main">₹ 3500<span class="ot-pricing-table__period">/m</span></div>
+                                <!-- <span class="ot-pricing-table__price-extra">$159/year</span> -->
+                            </div>
+                            
+                            
+                            
+                            <div class="ot-pricing-table__footer">
+                                <a href="#" class="octf-btn octf-btn-third --price-link-trial">Start Now</a>
+                                
+                            </div>
+                        </div>
+                    </div></div>
+                <div class="space-90"></div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </section>
+
+        <section class="homebox-1">
+            <div class="container">
+                <div class="py-5 service-14" style="background-color: #e1d871;border-radius: 15px;">
+                    <div class="container">
+                        <div class="row" style="padding:  0px 40px">
+                            <div class="col-lg-5">
+                                <h2 class="my-2">Fast Sharing</h2>
+                                <h3 class="my-3">However big your idea</h3>
+                                <p>Use Wedding Book to move creative assets, large files, whole folders and entire projects all at the touch of a button.</p>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="mb-4 mb-sm-0">
+                                    <img class="rounded img-fluid" src="assets/hdt/images/homebox1.png" alt="" />
+                                    
+                                </div>
+                            </div>
+                            <!-- Column -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="space-90"></div>
+                <div class="py-5 service-14" style="background-color: #c09a93;border-radius: 15px;">
+                    <div class="container">
+                        <div class="row" style="padding:  0px 40px">
+                            <div class="col-lg-5">
+                                <h2 class="my-2">Make it yours</h2>
+                                <h3 class="my-3">create that custom feel with your own branding</h3>
+                                <p></p>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="mb-4 mb-sm-0">
+                                    <img class="rounded img-fluid" src="assets/hdt/images/homebox2.png" alt="" />
+                                    
+                                </div>
+                            </div>
+                            <!-- Column -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="space-90"></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="py-5 service-14" style="background-color: #b9e0ff;border-radius: 15px;">
+                                <div class="container">
+                                    <div class="row" style="padding:  0px 40px">
+                                        <div class="col-lg-12">
+                                            <div class="mb-4 mb-sm-0">
+                                                <img class="rounded img-fluid" src="assets/hdt/images/homebox3.png" alt="" style="max-height: 230px;" />
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <h4 class="my-4">Password Protection Data Share</h4>
+                                            <p>From password protection to encryption, WeddingBook has all the built-in security features you need to safeguard your work.</p>
+                                        </div>
+                                        <!-- Column -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="py-5 service-14" style="background-color: #b9c0ff;border-radius: 15px;">
+                                <div class="container">
+                                    <div class="row" style="padding:  0px 40px">
+                                        <div class="col-lg-12">
+                                            <div class="mb-4 mb-sm-0">
+                                                <img class="rounded img-fluid" src="assets/hdt/images/homebox4.png" alt="" style="max-height: 260px;" />
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <h4 class="my-4">Reach a wider audience</h4>
+                                            <p>stand out online with custom backgrounds, URLs, beautifully personalized emails, and so much more.</p>
+                                        </div>
+                                        <!-- Column -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="space-90"></div>
+            </div>
+        </section>
+
+        <section class="team-faq">
+            <div class="container">
+                <div class="space-90"></div>
+                <div class="row">
+                    <div class="col-lg-5 mb-5 mb-lg-0">
+                        <div class="ssub-yes">
+                            <div class="ot-heading">
+                                <!-- <span class="ot-heading__sub">Most popular</span> -->
+                                <h2 class="ot-heading__title">Frequently Asked Questions</h2>
+                            </div>
+                        </div>
+                        <div class="space-10"></div>
+                        <div class="space-5"></div>
+                        <p>All your question answered.</p>
+                        <div class="space-20"></div>
+                        <!-- <div class="ot-button">
+                            <a href="#/" class="octf-btn octf-btn-second">Have Questions?</a>
+                        </div> -->
+                    </div>
+                    <div class="col-lg-6 offset-lg-1">
+                        <div class="ot-accordions-wrapper style-1">
+                            <div class="ot-acc-item current">
+                                <h5 class="ot-acc-item__title flex-middle" data-default="yes">
+                                    How do I zip a file a folder ?
+                                    <span class="down">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+                                            <g><g>
+                                                <polygon points="276,236 276,0 236,0 236,236 0,236 0,276 236,276 236,512 276,512 276,276 512,276 512,236"></polygon>
+                                            </g></g>
+                                        </svg>
+                                    </span>
+                                    <span class="up">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+                                            <g><g><rect y="236" width="512" height="40"></rect></g></g>
+                                        </svg>
+                                    </span>
+                                </h5>
+                                <div class="ot-acc-item__content active" style="display: block;">
+                                    The basic philosophy of our studio is to create individual, aesthetically stunning solutions for our customers by lightning-fast development of projects employing unique styles.
+                                </div>
+                            </div>
+                            <div class="ot-acc-item">
+                                <h5 class="ot-acc-item__title flex-middle">
+                                    How can i Upload a folder ?
+                                    <span class="down">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+                                            <g><g>
+                                                <polygon points="276,236 276,0 236,0 236,236 0,236 0,276 236,276 236,512 276,512 276,276 512,276 512,236"></polygon>
+                                            </g></g>
+                                        </svg>
+                                    </span>
+                                    <span class="up">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+                                            <g><g><rect y="236" width="512" height="40"></rect></g></g>
+                                        </svg>
+                                    </span>
+                                </h5>
+                                <div class="ot-acc-item__content">
+                                    The basic philosophy of our studio is to create individual, aesthetically stunning solutions for our customers by lightning-fast development of projects employing unique styles.
+                                </div>
+                            </div>
+                            <div class="ot-acc-item">
+                                <h5 class="ot-acc-item__title flex-middle">
+                                    How do I send a transfer ?
+                                    <span class="down">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+                                            <g><g>
+                                                <polygon points="276,236 276,0 236,0 236,236 0,236 0,276 236,276 236,512 276,512 276,276 512,276 512,236"></polygon>
+                                            </g></g>
+                                        </svg>
+                                    </span>
+                                    <span class="up">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+                                            <g><g><rect y="236" width="512" height="40"></rect></g></g>
+                                        </svg>
+                                    </span>
+                                </h5>
+                                <div class="ot-acc-item__content">
+                                    The basic philosophy of our studio is to create individual, aesthetically stunning solutions for our customers by lightning-fast development of projects employing unique styles.
+                                </div>
+                            </div>
+                            <div class="ot-acc-item">
+                                <h5 class="ot-acc-item__title flex-middle">
+                                    How do I pay account provider?
+                                    <span class="down">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+                                            <g><g>
+                                                <polygon points="276,236 276,0 236,0 236,236 0,236 0,276 236,276 236,512 276,512 276,276 512,276 512,236"></polygon>
+                                            </g></g>
+                                        </svg>
+                                    </span>
+                                    <span class="up">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+                                            <g><g><rect y="236" width="512" height="40"></rect></g></g>
+                                        </svg>
+                                    </span>
+                                </h5>
+                                <div class="ot-acc-item__content">
+                                    The basic philosophy of our studio is to create individual, aesthetically stunning solutions for our customers by lightning-fast development of projects employing unique styles.
+                                </div>
+                            </div>
+                            <div class="ot-acc-item">
+                                <h5 class="ot-acc-item__title flex-middle">
+                                    Will I get faster upload and download speeds with FileTransfer ?
+                                    <span class="down">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+                                            <g><g>
+                                                <polygon points="276,236 276,0 236,0 236,236 0,236 0,276 236,276 236,512 276,512 276,276 512,276 512,236"></polygon>
+                                            </g></g>
+                                        </svg>
+                                    </span>
+                                    <span class="up">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+                                            <g><g><rect y="236" width="512" height="40"></rect></g></g>
+                                        </svg>
+                                    </span>
+                                </h5>
+                                <div class="ot-acc-item__content">
+                                    The basic philosophy of our studio is to create individual, aesthetically stunning solutions for our customers by lightning-fast development of projects employing unique styles.
+                                </div>
+                            </div>
+                            <div class="ot-acc-item">
+                                <h5 class="ot-acc-item__title flex-middle">
+                                    Why is my transfer upload speed slow ?
+                                    <span class="down">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+                                            <g><g>
+                                                <polygon points="276,236 276,0 236,0 236,236 0,236 0,276 236,276 236,512 276,512 276,276 512,276 512,236"></polygon>
+                                            </g></g>
+                                        </svg>
+                                    </span>
+                                    <span class="up">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+                                            <g><g><rect y="236" width="512" height="40"></rect></g></g>
+                                        </svg>
+                                    </span>
+                                </h5>
+                                <div class="ot-acc-item__content">
+                                    The basic philosophy of our studio is to create individual, aesthetically stunning solutions for our customers by lightning-fast development of projects employing unique styles.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-100"></div>
+            </div>
+        </section>
+
+
+
+
+        <!--<section class="join-h4">
+            <div class="container">
+                <div class="space-30"></div>
+                <div class="row">
+                    <div class="col-xl-5 align-self-center mb-5 mb-lg-0">
+                        <div class="ssub-yes">
+                            <div class="ot-heading">
+                                <span class="ot-heading__sub text-light">join today</span>
+                                <h2 class="ot-heading__title text-light">The Best Solution to Manage Your Spending</h2>
+                            </div>
+                        </div>
+                        <div class="space-10"></div>
+                        <div class="space-5"></div>
+                        <p class="text-light">A modern approach to your spending. Intuitive software and cards designed together for the way.</p>
+                        <div class="space-20"></div>
+                        <a href="https://auth.weddingbook.in" class="octf-btn octf-btn-main btn-large">Try It Now</a>
+                    </div>
+                    <div class="col-xl-6 offset-xl-1 text-xl-right align-self-center">
+                        <div class="join-img-h4">
+                            <img src="assets/hdt/images/image4-home4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="space-30"></div>
+            </div>
+        </section>
+
+        <section class="top-12">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="space-120"></div>
+                <div class="space-60"></div>
+                <div class="row">
+                    <div class="col-xl-8 offset-xl-2 text-center">
+                        <h1 class="text-light">Scale Your Business by Analyzing Every Step</h1>
+                        <p class="text-light">We help to increase your productivity to improve your business by analyzing the work.</p>
+                        <div class="space-20"></div>
+                        <a href="https://auth.weddingbook.in" class="octf-btn octf-btn-main hover-light">Start Now</a>
+                        <div class="space-10"></div>
+                        <div class="space-3"></div>
+                        <div class="ot-image-animation1 top11-position-1">
+                            <img src="assets/hdt/images/home12-cblue.png" alt="">
+                        </div>
+                        <div class="ot-image-animation5 top11-position-2">
+                            <img src="assets/hdt/images/home12-cwhite.png" alt="">
+                        </div>
+                        <div class="ot-image-animation3 top11-position-3">
+                            <img src="assets/hdt/images/home12-cwhite.png" alt="">
+                        </div>
+                        <div class="ot-image-animation2 top11-position-4">
+                            <img src="assets/hdt/images/home12-cred.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="space-150"></div>
+                <div class="space-70 d-none d-md-block"></div>
+            </div>
+        </section>
+        <section class="image-12">
+            <div class="container-fluid text-center">
+                <img src="assets/hdt/images/home12-img-1.png" alt="">
+            </div>
+        </section>-->
+
+<div id="footer">
+<div class="container-fluid max-w-1200 spacer-inner-top-80 spacer-inner-top-sm-80 spacer-inner-bottom-60 spacer-inner-bottom-sm-100">
+<h2 class="ps-primary-heading tc">See More from Wedding Book</h2>
+<div class="ps-product-selector spacer-top-40 spacer-top-sm-60 row gutter-10 flex flex-column flex-row-sm">
+<div class="col-xs-12 col-sm-3 spacer-top-25 no-spacer-top-sm tc tl-sm">
+<a href="client_gallery.html">
+<div class="ps-product-shadow h-100 flex flex-column justify-between">
+<div class="spacer-bottom-20 flex justify-center justify-start-sm items-center">
+ <h3 class="ps-primary-heading f-22">Client Gallery</h3>
+</div>
+<p class="ps-body">Beautiful Client Photo Galleries with AI Face Recognition</p>
+<p class="ps-cta-link ps-cta-link--neutral display-ib spacer-top-30">Learn More <i class="fal fa-arrow-circle-right pos-rel f-14" style="top: 1px"></i></p>
+</div>
+</a>
+</div>
+<div class="col-xs-12 col-sm-3 spacer-top-25 no-spacer-top-sm tc tl-sm">
+<a href="crm.html">
+<div class="ps-product-shadow h-100 flex flex-column justify-between">
+<div class="spacer-bottom-20 flex justify-center justify-start-sm items-center">
+ <h3 class="ps-primary-heading f-22">CRM</h3>
+</div>
+<p class="ps-body">Say goodbye to the hassles of paperwork and hello to efficiency and organization.</p>
+<p class="ps-cta-link ps-cta-link--neutral display-ib spacer-top-30">Learn More <i class="fal fa-arrow-circle-right pos-rel f-14" style="top: 1px"></i></p>
+</div>
+</a>
+</div>
+<!--<div class="col-xs-12 col-sm-3 spacer-top-25 no-spacer-top-sm tc tl-sm">
+<a href="/high_data_transfer.html">
+<div class="ps-product-shadow h-100 flex flex-column justify-between">
+<div class="spacer-bottom-20 flex justify-center justify-start-sm items-center">
+ <h3 class="ps-primary-heading f-22">High Data Transfer</h3>
+</div>
+<p class="ps-body">Quickly share your files without limitations, getting your ideas where they need to go.</p>
+<p class="ps-cta-link ps-cta-link--neutral display-ib spacer-top-30">Learn More <i class="fal fa-arrow-circle-right pos-rel f-14" style="top: 1px"></i></p>
+</div>
+</a>
+</div>-->
+<div class="col-xs-12 col-sm-3 spacer-top-25 no-spacer-top-sm tc tl-sm">
+<a href="mobile-app.html">
+<div class="ps-product-shadow h-100 flex flex-column justify-between">
+<div class="spacer-bottom-20 flex justify-center justify-start-sm items-center">
+ <h3 class="ps-primary-heading f-22">Mobile App</h3>
+</div>
+<p class="ps-body">Get your own Wedding Photography app on iOS & Android</p>
+<p class="ps-cta-link ps-cta-link--neutral display-ib spacer-top-30">Learn More <i class="fal fa-arrow-circle-right pos-rel f-14" style="top: 1px"></i></p>
+</div>
+</a>
+</div>
+<div class="col-xs-12 col-sm-3 spacer-top-25 no-spacer-top-sm tc tl-sm">
+<a href="ar.html">
+<div class="ps-product-shadow h-100 flex flex-column justify-between">
+<div class="spacer-bottom-20 flex justify-center justify-start-sm items-center">
+ <h3 class="ps-primary-heading f-22">AR Photo to Video</h3>
+</div>
+<p class="ps-body">Breathe life into your Photos</p>
+<p class="ps-cta-link ps-cta-link--neutral display-ib spacer-top-30">Learn More <i class="fal fa-arrow-circle-right pos-rel f-14" style="top: 1px"></i></p>
+</div>
+</a>
+</div></div>
+</div>
+
+
+    <footer id="site-footer" class="site-footer">
+        <div class="container">
+            <div class="space-40"></div>
+            <!--<div class="row">
+                <div class="col-md-3 col-sm-6 mb-5 mb-md-0">
+                    <div class="footer-widget">
+                        <h5 class="footer-title">Contacts</h5>
+                        <div class="footer-contact-info">
+                            <span class="number-phone">+ 123-456-7890</span>
+                            <span class="number-phone">+ 123-456-7891</span>
+                            <div class="space-20"></div>
+                            <div class="space-5"></div>
+                            <span>Mon - Sun: 10am - 10pm</span>
+                            <div class="space-20"></div>
+                            <div class="space-2"></div>
+                            <span>670 Lafayette Ave, Brooklyn, NY 11216</span>
+                            <div class="space-10"></div>
+                            <div class="space-5"></div>
+                            <div class="space-2"></div>
+                            <a class="text-color-primary text-decoration" href="mailto:progrisaas@example.com">progrisaas@example.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-5 mb-md-0">
+                    <div class="footer-widget">
+                        <h5 class="footer-title">Company</h5>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="services-1.html">Services</a></li>
+                            <li><a href="#">Cases</a></li>
+                            <li><a href="blog.html">News</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-5 mb-sm-0">
+                    <div class="footer-widget">
+                        <h5 class="footer-title">Resources</h5>
+                        <ul>
+                            <li><a href="#">Demos</a></li>
+                            <li><a href="#">Webinars</a></li>
+                            <li><a href="#">Docs</a></li>
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-widget">
+                        <h5 class="footer-title">Follow Us</h5>
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Linkedin</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="space-60"></div>
+            <div class="space-5"></div>-->
+            <div class="row">
+                <div class="col-lg-4 col-md-8 mb-3 mb-md-0 align-self-center">
+                    <p class="copyright">Copyright © 2022 Wedding Book. All Rights Reserved.</p>
+                </div>
+                <div class="col-lg-8 col-md-4 text-md-right">
+                    <ul class="ft-menu">
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="tutorials.html">Tutorials</a></li>
+                        <li><a href="terms-condition.html">Terms &#038; Condition</a></li>
+                        <li><a href="Return%20%26%20Refund-policy.html">Return &#038; Refund Policy</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="contact-us.html">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="space-40"></div>
+        </div>
+    </footer><!-- #site-footer -->
+</div><!-- #page -->
+<a id="back-to-top" href="#" class="show"><i class="ot-flaticon-up-arrow"></i></a>
+        <!-- jQuery -->
+    <script src="assets/hdt/js/jquery.min.js"></script>
+    <script src="assets/hdt/js/lightgallery-all.min.js"></script>
+    <script src="assets/hdt/js/jquery.isotope.min.js"></script>
+    <script src="assets/hdt/js/owl.carousel.min.js"></script>
+    <script src="assets/hdt/js/easypiechart.min.js"></script>
+    <script src="assets/hdt/js/jquery.countdown.min.js"></script>
+    <script src="assets/hdt/js/scripts.js"></script>
+    <script src="assets/hdt/js/contact.js"></script>
+
+</body>
+
+<!-- Mirrored from weddingbook.in/high_data_transfer.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Feb 2025 06:28:38 GMT -->
+</html>
